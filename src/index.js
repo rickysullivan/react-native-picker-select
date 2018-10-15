@@ -300,6 +300,7 @@ export default class RNPickerSelect extends PureComponent {
                     ]}
                     value={this.state.selectedItem.label}
                     ref={this.setInputRef}
+                    editable={false}
                 />
                 {this.renderIcon()}
             </View>
